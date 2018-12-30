@@ -1,6 +1,6 @@
 <div id="top"></div>
 <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
-<script>AV.initialize("leancloud_appid", "leancloud_appkey");</script>
+<script>AV.initialize("IncCJ9bPSktOja894HwhOFMB-gzGzoHsz", "2RFu5U1qeTIbTbWMRttTCWbU");</script>
 <script type="text/javascript">
   var time=0
     var title=""
@@ -15,8 +15,8 @@
 			        time=result.time;
 				      title=result.title;
 				            url=result.url;
-					          // var content="<a href='"+"https://hoxis.github.io"+url+"'>"+title+"</a>"+"<br>"+"<font color='#fff'>"+"阅读次数："+time+"</font>"+"<br><br>";
-						        var content="<p>"+"<font color='#1C1C1C'>"+"【文章热度:"+time+"℃】"+"</font>"+"<a href='"+"https://hoxis.github.io"+url+"'>"+title+"</a>"+"</p>";
+					          // var content="<a href='"+"https://hdlxt.github.io"+url+"'>"+title+"</a>"+"<br>"+"<font color='#fff'>"+"阅读次数："+time+"</font>"+"<br><br>";
+						        var content="<p>"+"<font color='#1C1C1C'>"+"【文章热度:"+time+"℃】"+"</font>"+"<a href='"+"https://hdlxt.github.io"+url+"'>"+title+"</a>"+"</p>";
 							      document.getElementById("top").innerHTML+=content
 							          }
 								    }, function (error) {

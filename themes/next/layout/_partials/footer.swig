@@ -24,13 +24,20 @@
 </div>
 <div class="powered-by">
 
-<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
-  本站总访客量:<span id="busuanzi_value_site_uv"></span>
+<i class="fa fa-user-md"></i><span id="busuanzi_container_site_pv">
+  总访问量:<span id="busuanzi_value_site_pv"></span>
   </span>
   </div>
+  <div class="powered-by">
   <span class="post-meta-divider">|</span>
-{% if theme.footer.powered %}
-  <div class="powered-by">{#
+  <i class="fa fa-user-md"></i>
+  <span id="busuanzi_container_site_uv">
+	总访客数:<span id="busuanzi_value_site_uv"></span>
+   </span>
+  </div>
+<!-- 
+ {% if theme.footer.powered %}
+ <div class="powered-by">{#
   #}{{ __('footer.powered', '<a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a>') }}{#
 #}</div>
 {% endif %}
@@ -45,14 +52,14 @@
     #}NexT.{{ theme.scheme }}{#
   #}</a>{% if theme.footer.theme.version %} v{{ theme.version }}{% endif %}{#
 #}</div>
-{% endif %}
+{% endif %} -->
 <span class="post-meta-divider">|</span>
 <div class="theme-info">
   <div class="powered-by"></div>
-    <span class="post-count">博客全站共{{ totalcount(site) }}字</span>
+    <span class="post-count">博客共{{ totalcount(site) }}字</span>
     </div>
 {% if theme.footer.custom_text %}
-  <div class="footer-custom">
+    <div class="footer-custom"> 
   {##}{{ theme.footer.custom_text }}{#
 #}</div>
 {% endif %}
