@@ -34,7 +34,7 @@
             {% block content %}{% endblock %}
           </div>
           {% include '_third-party/duoshuo-hot-articles.swig' %}
-          {% include '_partials/comments.swig' %}
+          <!-- {% include '_partials/comments.swig' %} -->
         </div>
         {% if theme.sidebar.display !== 'remove' %}
           {% block sidebar %}{% endblock %}

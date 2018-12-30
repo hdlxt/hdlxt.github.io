@@ -35,7 +35,7 @@
 	总访客数:<span id="busuanzi_value_site_uv"></span>
    </span>
   </div>
-<!-- 
+  <!--
  {% if theme.footer.powered %}
  <div class="powered-by">{#
   #}{{ __('footer.powered', '<a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a>') }}{#
@@ -52,7 +52,7 @@
     #}NexT.{{ theme.scheme }}{#
   #}</a>{% if theme.footer.theme.version %} v{{ theme.version }}{% endif %}{#
 #}</div>
-{% endif %} -->
+{% endif %} --> 
 <span class="post-meta-divider">|</span>
 <div class="theme-info">
   <div class="powered-by"></div>
