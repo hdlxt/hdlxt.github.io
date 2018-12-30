@@ -140,6 +140,7 @@
 
 
 
+  <script type="text/javascript" src="/js/src/love.js"></script>
 </head>
 
 <body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -191,6 +192,16 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
             
             首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-top">
+          <a href="/top/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-signal"></i> <br>
+            
+            阅读排行
           </a>
         </li>
       
@@ -418,7 +429,9 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
-              <p class="site-author-name" itemprop="name">Lxt</p>
+              <img class="site-author-image" itemprop="image" src="/images/avatar.jpg" alt="XiaoTong">
+            
+              <p class="site-author-name" itemprop="name">XiaoTong</p>
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
@@ -467,24 +480,6 @@
 
           
           
-            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
-              <div class="links-of-blogroll-title">
-                <i class="fa  fa-fw fa-link"></i>
-                友情链接
-              </div>
-              <ul class="links-of-blogroll-list">
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="http://example.com/" title="Title" target="_blank">Title</a>
-                  </li>
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="http://example.com/" title="Test" target="_blank">Test</a>
-                  </li>
-                
-              </ul>
-            </div>
-          
 
           
 
@@ -508,19 +503,20 @@
         <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
   <span class="with-love">
-    <i class="fa fa-user"></i>
+  <!--  <i class="fa fa-user"></i>-->
+  <i class="fa fa-heart" arua-hidden="true"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Lxt</span>
+  <span class="author" itemprop="copyrightHolder">XiaoTong</span>
 
   
 </div>
 <div class="powered-by">
 
-<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
-  本站访客数:<span id="busuanzi_value_site_uv"></span>
+<i class="fa fa-user-md"></i><span id="busuanzi_container_site_pv">
+  本站总访问量:<span id="busuanzi_value_site_pv"></span>
   </span>
   </div>
-<!--   <span class="post-meta-divider">|</span>
+  <span class="post-meta-divider">|</span>
 
   <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
@@ -530,7 +526,7 @@
 
 
   <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
--->
+
 <span class="post-meta-divider">|</span>
 <div class="theme-info">
   <div class="powered-by"></div>
@@ -686,6 +682,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'IncCJ9bPSktOja894HwhOFMB-gzGzoHsz',
+        appKey: '2RFu5U1qeTIbTbWMRttTCWbU',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
