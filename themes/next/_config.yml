@@ -380,7 +380,7 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 valine:
-  enable: false
+  enable: true
   appid:  IncCJ9bPSktOja894HwhOFMB-gzGzoHsz # your leancloud application appid
   appkey: 2RFu5U1qeTIbTbWMRttTCWbU # your leancloud application appkey
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
@@ -397,7 +397,7 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: MTAyMC80MTkxMS8xODQ1Nw==
+#livere_uid: MTAyMC80MTkxMS8xODQ1Nw==
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
@@ -816,3 +816,7 @@ version: 5.1.4
 # 文章末尾添加“本文结束”标记
 passage_end_tag:
   enabled: true
+# Online contact 
+daovoice: true
+daovoice_app_id: 32a43081
+
