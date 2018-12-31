@@ -56,10 +56,14 @@
 <span class="post-meta-divider">|</span>
 <div class="theme-info">
   <div class="powered-by"></div>
-    <span class="post-count">博客共{{ totalcount(site) }}字</span>
+	<span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    <span class="post-count">博客全站共{{ totalcount(site) }}字</span>
     </div>
 {% if theme.footer.custom_text %}
     <div class="footer-custom"> 
   {##}{{ theme.footer.custom_text }}{#
 #}</div>
 {% endif %}
+<span id="sitetime"></span>

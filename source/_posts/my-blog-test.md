@@ -6,6 +6,5 @@ categories:
 tags:
 - test
 - test1
-comments: false
 copyright: ture
 ---
