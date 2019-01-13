@@ -43,7 +43,7 @@ findOne和getOne重点即为翻译部分内容对比，两者返回内容不同
 
 <h2 id='2'>使用说明</h2>
 
-**findOne：**相对于getOne方法比较通用，作为根据主键查询的普通方法即可，根据返回结果是否为`null`来判断是否查询到实体，然后进行下一步操作。  （[Spring Data JPA 2.0X版本之后findOne方法被findById方法替换](http://www.xiaotong.site)）
+**findOne：**相对于getOne方法比较通用，作为根据主键查询的普通方法即可，根据返回结果是否为`null`来判断是否查询到实体，然后进行下一步操作。  （[Spring Data JPA 2.0X版本之后findOne方法被findById方法替换](http://xiaotong.site/2019/01/13/Spring%20Data%20JPA%202.0X%E7%89%88%E6%9C%AC%E4%B9%8B%E5%90%8EfindOne%E6%96%B9%E6%B3%95%E8%A2%ABfindById%E6%96%B9%E6%B3%95%E6%9B%BF%E6%8D%A2/)）
 **getOne：**使用该方法时，当查询不到实体时，返回的是一个异常，但是进行`xxx == null `判断时结果true，注意不可以此作为判断实体是否存在的依据。
 
 	
