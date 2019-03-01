@@ -269,3 +269,5 @@
 {"name":"hexo","hostname":"lxt-PC","pid":9788,"level":30,"msg":"Hexo is running at \u001b[4mhttp://localhost:4000\u001b[24m . Press Ctrl+C to stop.","time":"2019-01-22T01:02:26.228Z","v":0}
 {"name":"hexo","hostname":"lxt-PC","pid":9788,"level":20,"msg":"Database saved","time":"2019-01-22T01:02:26.237Z","v":0}
 {"name":"hexo","hostname":"lxt-PC","pid":9788,"level":20,"msg":"Rendering index: \u001b[35mindex.html\u001b[39m","time":"2019-01-22T01:02:38.773Z","v":0}
+{"name":"hexo","hostname":"lxt-PC","pid":9788,"level":30,"msg":"Farewell","time":"2019-01-22T01:04:17.653Z","v":0}
+{"name":"hexo","hostname":"lxt-PC","pid":9788,"level":20,"msg":"Database saved","time":"2019-01-22T01:04:17.670Z","v":0}

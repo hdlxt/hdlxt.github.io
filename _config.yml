@@ -2,11 +2,11 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 # Site
-title: XiaoTong's Blog
+title: 丹哥的博客
 subtitle: Just do it!
-description: XiaoTong's Blog
+description:
 keywords:
-author: XiaoTong
+author: 丹哥
 language: zh-Hans
 timezone:
 
@@ -79,8 +79,8 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:hdlxt/hdlxt.github.io.git
-  branch: master
+  repo: 
+        coding: git@git.dev.tencent.com:hdlxt/hdlxt.git,master
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 plugins: hexo-generate-feed
