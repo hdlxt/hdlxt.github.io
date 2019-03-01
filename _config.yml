@@ -79,8 +79,8 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: 
-        coding: git@git.dev.tencent.com:hdlxt/hdlxt.git,master
+  repo: git@github.com:hdlxt/hdlxt.github.io.git
+  branch: master
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 plugins: hexo-generate-feed
