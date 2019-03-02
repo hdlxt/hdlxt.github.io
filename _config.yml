@@ -2,11 +2,11 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 # Site
-title: XiaoTong's Blog
+title: 丹哥的博客
 subtitle: Just do it!
-description: XiaoTong's Blog
+description:
 keywords:
-author: XiaoTong
+author: 丹哥
 language: zh-Hans
 timezone:
 
