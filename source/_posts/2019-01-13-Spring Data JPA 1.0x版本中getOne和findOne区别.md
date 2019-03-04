@@ -7,7 +7,7 @@ categories:
 - Spring
 copyright: true
 ---
-上个项目初期，项目成员不熟悉Spring Data JPA框架，在根据主键获取实体时，findOne和getOne混用，留下了不少坑，做个记录，简要说明下区别。
+上个项目初期，由于不熟悉Spring Data JPA框架，在根据主键获取实体时，findOne和getOne混用，留下了不少坑，做个记录，简要说明下区别。
 <!--more-->
 ## 目录
 * [**API说明**](#1)
