@@ -1,4 +1,21 @@
-> 今年年初参考大佬的博客初步学习和敲了一遍Spring Cloud，此系列博客，一方面是回顾之前的学习过程，另一方面要巩固和深入学习微服务相关知识。
+---
+title: 【Spring Cloud 笔记和总结】一、写在开头，内容简述（Spring Boot 2.1.1&Spring Cloud Greenwich.RELEASE）
+date: 2019-10-01 20:30:12
+tags:
+- Spring Boot
+- Spring Cloud 
+- 微服务
+- 分布式
+categories:
+- Spring
+- Spring Cloud 
+copyright: true。
+
+---
+
+今年年初参考大佬的博客初步学习和敲了一遍Spring Cloud，此系列博客，一方面是回顾之前的学习过程，另一方面要巩固和深入学习微服务相关知识。
+
+<!--more-->
 
 - 之前的源码地址[`传送门`](https://github.com/hdlxt/springcloud)
 	- 版本
