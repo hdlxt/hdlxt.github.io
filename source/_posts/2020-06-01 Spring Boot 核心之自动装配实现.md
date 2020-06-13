@@ -1,6 +1,6 @@
 ---
-title: 一、Spring Boot 核心之自动装配实现
-date: 2019-11-24 22:30:12
+title: Spring Boot 核心之自动装配实现
+date: 2020-06-01 20:30:12
 tags:
 - Spring Boot
 - 自动装备
