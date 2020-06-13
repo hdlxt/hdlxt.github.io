@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>猿生活笔记</title>
+  <title>菜鸟猿笔记</title>
   
   <subtitle>平凡的每一天。</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://blog.yuanlife.cn/</id>
   
   <author>
-    <name>猿生活</name>
+    <name>菜鸟猿</name>
     
   </author>
   
