@@ -2,11 +2,11 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 # Site
-title: 猿生活笔记
+title: 菜鸟猿笔记
 subtitle: 平凡的每一天。
 description:
 keywords:
-author: 猿生活
+author: 菜鸟猿
 language: zh-Hans
 timezone:
 
